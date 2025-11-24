@@ -1,0 +1,37 @@
+# Ignore the entire virtual environment
+bin/
+lib/
+lib64
+include/
+pyvenv.cfg
+CACHEDIR.TAG
+.lock
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment names (common)
+.env
+.venv
+env/
+venv/
+
+# Logs
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# macOS / Linux trash
+.DS_Store
+Trash/
